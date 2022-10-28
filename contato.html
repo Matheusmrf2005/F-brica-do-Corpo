@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contato - Fábrica do Corpo</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+	<header>
+		<div class="caixa">
+			<h1>
+				<img src="academia.jpg" alt="Logo da Fábrica do Corpo">
+			</h1>
+			<nav>
+				<ul class="navegacao">
+					<li><a href="Fábrica do Corpo.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="Telefone">Telefone</label>
+            <input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+            <label for="mensagem">Mensagem</label>
+             <textarea cols="70" rows="10" id="mensagem"></textarea>
+     <fieldset>
+             <legend class="">Como prefere o nosso contato?</p>
+
+            <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
+            
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+            
+
+            <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> WhatsApp</label>
+           
+     </fieldset>
+
+    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+            <input type="submit" value="Enviar Formulário" class="enviar">
+
+        </form>
+    </main>
+    <footer>
+		<img src="academia.jpg" alt="Logo da Fábrica do Corpo">
+		<p class="reservados">&copy; Direitos reservados
+		<p class="copyright"> Fábrica do Corpo-2022
+
+	</footer>
+
+
+</body>
+
+</html>

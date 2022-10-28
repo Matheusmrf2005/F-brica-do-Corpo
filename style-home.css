@@ -1,0 +1,57 @@
+body{
+	
+}
+
+#treine {
+ 	width: 100%;
+}
+
+.principal{
+
+	background:rgb(170, 170, 2);
+	padding: 30px;
+}
+
+.titulo-principal{
+	padding-left: 20px;
+}
+
+.titulo-centralizado {text-align: center;
+	font-size:30px;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+
+	font-size: 20px;
+}
+
+.itens li{
+	font-style: italic;
+	
+}
+
+.itens-lista{
+	width: 40px;
+}
+
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width:40%;
+	margin-right: 15%;
+	font-size: 25px
+}
+
+
+.imagemcomomontarmeutreino{
+
+	width:50%;
+	margin-left: 3%;
+}
+
+
