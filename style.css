@@ -165,12 +165,13 @@ form label, form legend{
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+	
  }
 
 .principal{
 	padding: 1em 0;
 	background: linear-gradient(White);
-	width: 1900px;
+	width: 100%;
 	margin:0 auto;
 }
 
@@ -220,6 +221,7 @@ margin: 0 0 1em;
 	width: 60%;
 	opacity: 1;
 	transition: 500ms;
+	
  }
  
 .imagemcomomontarmeutreino:hover{
@@ -235,3 +237,14 @@ margin: 0 0 1em;
 	background: linear-gradient(yellow 25%, black)
  }
  
+ /*css no celular*/
+
+ @media screen and (max-widht:480px) {
+ 	.caixa, .principal, .beneficios, .video-area{
+		width: auto;
+		}	
+	h1 {
+		text-align: center;
+	}
+	 
+}
