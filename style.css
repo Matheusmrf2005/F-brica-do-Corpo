@@ -188,7 +188,7 @@ margin: 0 0 1em;
 
 .beneficios{
 	padding:1em 0;
-	background: linear-gradient(white 50%, yellow);
+	background: linear-gradient(white 50%, rgb(241, 241, 88));
 }
 
 
@@ -234,7 +234,7 @@ margin: 0 0 1em;
  }
 
  .video-area{
-	background: linear-gradient(yellow 25%, black)
+	background: linear-gradient(rgb(241, 241, 88),black);
  }
  
  /*css no celular*/
@@ -243,7 +243,7 @@ margin: 0 0 1em;
  	.caixa, .principal, .beneficios, .video-area{
 		width: auto;
 		}	
-	h1 {
+	img academia.jpg {
 		text-align: center;
 	}
 	 
