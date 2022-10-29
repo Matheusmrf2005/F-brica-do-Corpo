@@ -1,17 +1,20 @@
-body{
+body {
 	font-family: 'Trispace', sans-serif;
 }
 
 
 header {
-	background:rgb(34, 34, 31);
+	background: rgb(34, 34, 31);
 	padding: 20px 0;
 }
 
 .caixa {
 	position: relative;
-	width: 940px;
 	margin: 0 auto;
+}
+
+.cabecalho {
+	margin: 2vw;
 }
 
 nav {
@@ -32,19 +35,14 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
 	color: #918e8e;
-	 text-decoration:underline;
+	text-decoration: underline;
 }
 
-.produtos {
- width: 1341px;
- margin-left: -214px;
- padding: 50px 0;
- 
-}
 
-.itens li{
+.itens li {
 	font-size: 12px;
 }
 
@@ -55,196 +53,197 @@ nav a:hover{
 	text-align: center;
 	border: 2px solid black;
 	border-radius: 25px;
-	width:30%;
+	width: 30%;
 	margin: 0 auto;
 	margin: 0 1.5%;
 	vertical-align: top;
 	background: rgb(26, 26, 24);
-		
+
 }
 
-.produtos li:hover{
+.produtos li:hover {
 	border-color: rgb(38, 0, 255);
 }
 
-.produtos li:active{
+.produtos li:active {
 	border-color: rgb(255, 0, 0);
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
 	font-size: 35px;
 }
 
-.produtos h2{
+.produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.produto-descricao{
+.produto-descricao {
 	font-size: 20px;
 	font-weight: bold;
 }
 
-.produto-preco{
+.produto-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
-footer{
+footer {
 	height: 335px;
 	text-align: center;
 	background: #000000;
 	padding: 40px 0;
 }
 
-.reservados{
+.reservados {
 	color: white;
 	font-size: 17px;
-	margin: 50px 0 0 ;
+	margin: 50px 0 0;
 }
-	
 
 
 
-.copyright{
+
+.copyright {
 	color: white;
 	font-size: 17px;
 }
- 
-main{
-	
-}
 
 
-form{
+
+form {
 	margin: 40px 0;
 }
 
-form label, form legend{
+form label,
+form legend {
 	display: block;
 	font-size: 20px;
 	margin: 10px 0 10px;
 }
- .input-padrao {
+
+.input-padrao {
 	display: block;
 	margin: 0 0 10px;
 	padding: 10px 25px;
 	width: 50%;
- }
+}
 
- .checkbox{
+.checkbox {
 	margin: 20px 0;
- }
+}
 
- .enviar{
+.enviar {
 	width: 40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
-	border:none;
+	border: none;
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
- }
+}
 
- .enviar:hover{
+.enviar:hover {
 	background: darkorange;
 	transform: scale(1.2);
- }
+}
+
 /* css da página inicial*/
 
- .treine {
+.treine {
 	width: 100%;
- }
+	height: auto;
+}
 
- .titulo-principal{
+.titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
-	
- }
 
-.principal{
+}
+
+.principal {
 	padding: 1em 0;
 	background: linear-gradient(White);
 	width: 100%;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 
- .principal p{
-margin: 0 0 1em;	
- }
+.principal p {
+	margin: 0 0 1em;
+}
 
- .design {
+.design {
 	width: 120px;
 	float: left;
 	margin: 0px 20px 20px 5px;
 }
 
-.beneficios{
-	padding:1em 0;
+.beneficios {
+	padding: 1em 0;
 	background: linear-gradient(white 50%, rgb(241, 241, 88));
 }
 
 
-.conteudo-beneficios{
+.conteudo-beneficios {
 	width: 640px;
 	margin: 0 auto;
-	
+
 }
 
-.lista-beneficios{
+.lista-beneficios {
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
-	
+
 }
 
-.itens{
+.itens {
 	line-height: 1.5;
 }
 
-.itens:first-child{
+.itens:first-child {
 	font-weight: bold;
 }
 
-.itens::before{
+.itens::before {
 	content: "★";
 }
 
- .imagemcomomontarmeutreino{
+.imagemcomomontarmeutreino {
 	width: 60%;
 	opacity: 1;
 	transition: 500ms;
-	
- }
- 
-.imagemcomomontarmeutreino:hover{
+
+}
+
+.imagemcomomontarmeutreino:hover {
 	opacity: 0.3;
 }
 
- .video{
+.video {
 	width: 560px;
-	margin:  auto;
- }
+	margin: auto;
+}
 
- .video-area{
-	background: linear-gradient(rgb(241, 241, 88),black);
- }
- 
- /*css no celular*/
+.video-area {
+	background: linear-gradient(rgb(241, 241, 88), black);
+}
 
- @media screen and (max-widht:480px) {
+/*css no celular*/
+
+/* @media screen and (max-widht:480px) {
  	.caixa, .principal, .beneficios, .video-area{
 		width: auto;
 		}	
-	img academia.jpg {
+	 h1 {
 		text-align: center;
 	}
 	 
-}
+}  */
