@@ -2,10 +2,19 @@ body {
 	font-family: 'Trispace', sans-serif;
 }
 
+.cor-de-fundo{
+	background: blue;
+}
 
-header {
-	background: rgb(34, 34, 31);
-	padding: 20px 0;
+.navbar.navbar-expand-lg.bg-light {
+	padding: 30px 30px;
+	background: ue;
+}
+
+.nav-item{
+	font-size: larger; 
+	font-style: oblique;
+	
 }
 
 .caixa {
@@ -154,9 +163,9 @@ form legend {
 
 /* css da página inicial*/
 
-.treine {
+.foto-home {
 	width: 100%;
-	height: auto;
+	height: 650px;
 }
 
 .titulo-principal {

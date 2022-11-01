@@ -1,0 +1,20 @@
+.navbar{
+}
+
+.imagem-carrossel{
+    object-fit: cover;
+    object-position: 0 15%;
+    height: 600px;
+
+}
+
+.imagem-carrossel02{
+    object-fit: cover;
+    height: 600px;
+
+}
+
+.fonte-carrossel{
+    font-family: 'Permanent Marker',cursive;
+    color: blue;
+    }
