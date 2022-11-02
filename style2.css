@@ -3,18 +3,19 @@
 
 .imagem-carrossel{
     object-fit: cover;
-    object-position: 0 15%;
-    height: 600px;
+    object-position: 0 20%;
+    height: 500px;
 
 }
 
 .imagem-carrossel02{
     object-fit: cover;
-    height: 600px;
+    object-position: 0 30%;
+    height: 500px;
 
 }
 
 .fonte-carrossel{
-    font-family: 'Permanent Marker',cursive;
-    color: blue;
+    font-family:'Permanent Marker',cursive;
+    color: white;
     }
