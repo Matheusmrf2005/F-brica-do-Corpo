@@ -1,4 +1,5 @@
-.navbar{
+.card-largura{
+    max-width: 18rem;
 }
 
 .imagem-carrossel{
@@ -16,6 +17,39 @@
 }
 
 .fonte-carrossel{
-    font-family:'Permanent Marker',cursive;
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: darkred;
+}
+    
+.cor-especial{
+    color: darkred;
+}
+
+
+.botao-cor-especial{
+    background-color: darkred;
     color: white;
-    }
+}
+
+.botao-cor-especial:hover{
+    color: darkorange;
+}
+
+.cor-borda{
+    border-color: darkred !important;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.cor-menu{
+    background:linear-gradient(  white 60%, black);
+}
+
+/*.cor-de-fundo01{
+    background:black;
+}
+*/
