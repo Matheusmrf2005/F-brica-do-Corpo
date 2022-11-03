@@ -36,9 +36,6 @@
     color: darkorange;
 }
 
-.cor-borda{
-    border-color: darkred !important;
-}
 
 .card-posicao-imagem{
     object-fit: cover;
