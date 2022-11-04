@@ -9,6 +9,10 @@
 
 }
 
+.img-thumbnail:hover{
+    background-color:grey;
+}
+
 .imagem-carrossel02{
     object-fit: cover;
     object-position: 0 30%;
@@ -53,3 +57,42 @@
     background:black;
 }
 */
+
+.video{
+    text-align: center;
+    background: black;
+    padding: 30px;
+}
+
+.video-area{
+    background: linear-gradient(black 5%,#343a40 95%);
+}
+
+.cor-de-fundo-rodape{
+    background:linear-gradient(black 5%,#343a40);
+    text-align: center;
+}
+
+.reservados{
+    margin-top: 0;
+    margin-bottom: 0;
+    color:white;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.imagem-rodape{
+    width: 100px;
+}
+
+    @media screen and (max-widht:480px); {
+    .video, .video-area{
+        width: 100%;
+    }
+}
