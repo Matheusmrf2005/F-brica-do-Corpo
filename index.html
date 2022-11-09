@@ -3,23 +3,15 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="widht=device-widht">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Fábrica Do Corpo</title>
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="style.css">
 	<link href="https: //fonts.googleapis.com/css2? family= Triespaço & display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
 
-	<!-- Latest compiled and minified CSS -->
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
-
-	<!-- Latest compiled JavaScript -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-		crossorigin="anonymous"></script> -->
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -36,11 +28,21 @@
 </head>
 
 <body>
-
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
 	<header>
-
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="index2.html"><img src="academia.jpg" width="80px" height="80px" class="img-thumbnail" alt="Logo Site"></a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index2.html"><img class="img-thumbnail" src="academia.jpg" width="80px"
+					height="80px" alt="Logo Site"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -51,164 +53,136 @@
 						<a class="nav-link" href="index2.html">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item d-flex">
-						<a class="nav-link" href="#">Produtos</a>
+						<a class="nav-link" href="produtos2.html">Produtos</a>
 					</li>
 					<li class="nav-item d-flex">
-						<a class="nav-link" href="#">Contatos</a>
+						<a class="nav-link" href="#">Contato</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</header>
 
-<main class="cor-menu">
-
-	<section class="carrossel">
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-		<ol class="carousel-indicators">
-			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img class="d-block w-100 imagem-carrossel" src="imagemcarrossel01.jpeg" alt="First slide">
-			<div class="carousel-caption d-none d-md-block h-50">
-				<h1 class="fonte-carrossel display-4" >o processo é lento, mas desistir não acelera</h1>
-			</div>
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100 imagem-carrossel02" src="cursomusculacao.jpg" alt="Second slide">
-				<div class="carousel-caption d-none d-md-block h-50">
-					<h1 class="fonte-carrossel display-4">treine da forma correta</h1>
+	<main class="cor-menu">
+		<section class="carrossel">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100 imagem-carrossel" src="imagemcarrossel01.jpeg" alt="First slide">
+						<div class="carousel-caption d-none d-md-block h-50">
+							<h1 class="fonte-carrossel display-4">o processo é lento, mas desistir não acelera</h1>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100 imagem-carrossel02" src="cursomusculacao.jpg" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block h-50">
+							<h1 class="fonte-carrossel display-4">treine da forma correta</h1>
+						</div>
+					</div>
 				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-		</div>
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-	</section>
-
-	<section id="titulo">
-
-	<h2 class="text-center fonte-carrossel cor-especial pt-5"> Sobre a Fábrica do Corpo</h2>
-	<p class="text-center text-secondary pb-3">Com o avanço da ciência, mais específicamente no âmbito da saúde, foi descoberto o quão
-		importante é a prática de atividades físicas para o ser humano,
-		dentre algumas delas; se encontra à musculação, que além de proporcionar qualidade de vida, também pode
-		ser utilizada para mudar o seu corpo, tanto para emagrecer, quanto para o ganho de massa muscular.
-		Por isso, temos a missão de te entregar quaisquer infoprodutos relacionados à
-		musculação, dentre eles: livros, cursos, e guias de como fazer seu treino o mais eficiente possível,
-		alcançando os melhores resultados em menos tempo.
-		
-	<p>Logo abaixo, apresentamos alguns dos nossos vários infoprodutos como exemplo para você...</p>
-	</section>
-
-	<section class="container" id="infoprodutos">
-		<div class="row justify-content-center cor-de-fundo01">
-
-
-		<article class="card border-dark card-largura p-0 m-4 col-12 col-md-3">
-			<img src="treino01.jpg" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
-			<div class="card-body">
-			  <h5 class="card-title">Tabela de treinos</h5>
-			  <p class="card-text">Calendário de divisão de treinos para academia.</p>
-			  <a href="#" class="btn botao-cor-especial">Adquirir</a>
-			</div>
-		 
-		</article>
-		  <article class="card border-dark card-largura p-0 m-4 col-12 col-md-3">
-			<img src="treino2.jpg" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
-			<div class="card-body">
-			  <h5 class="card-title">Planilha para hipertrofia</h5>
-			  <p class="card-text">Planilha especializada para ganho de músculo.</p>
-			  <a href="#" class="btn botao-cor-especial">Adquirir</a>
-			</div>
-		  </article>
-
-		  <article class="card border-dark card-largura p-0 m-4 col-12 col-md-3">
-			<img src="treino03.jpg" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
-			<div class="card-body">
-			  <h5 class="card-title">Dieta para hipertrofia</h5>
-			  <p class="card-text">Como fazer sua dieta para resultados na musculação.</p>
-			  <a href="#" class="btn botao-cor-especial">Adquirir</a>
-			</div>
-		  </article>
-
-
-		  <article class="card border-dark card-largura p-0 m-4 col-12 col-md-3">
-			<img src="como montar meu treino.png" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
-			<div class="card-body">
-			  <h5 class="card-title">Guia musculação</h5>
-			  <p class="card-text">Guia de como montar seu treino perfeito.</p>
-			  <a href="#" class="btn botao-cor-especial">Adquirir</a>
-			</div>
-		  </article>
-
-
-
-		  <article class="card border-dark card-largura p-0 m-4 col-12 col-md-3">
-			<img src="cursomusculacao.jpg" class="card-img-top card-posicao-imagem" alt="Curso de musculação">
-			<div class="card-body">
-			  <h5 class="card-title">Curso de musculação</h5>
-			  <p class="card-text">Curso instruído a musculação e academia.</p>
-			  <a href="#" class="btn botao-cor-especial">Adquirir</a>
-			</div>
-		  </article>
-
-		  <article class="card border-dark card-largura p-0 m-4 col-12 col-md-3">
-			<img src="livromusculação.jpg" class="card-img-top card-posicao-imagem" alt="Livro de musculação">
-			<div class="card-body">
-			  <h5 class="card-title">Livro sobre musculação</h5>
-			  <p class="card-text">Livro sobre musculação e academia completo.</p>
-			  <a href="#" class="btn botao-cor-especial">Adquirir</a>
-			</div>
-		  </article>
-		  </div>
 		</section>
 
+		<section id="titulo">
 
-		</main>
-	
+			<div class="container">
+				<h2 class="text-center fonte-carrossel cor-especial pt-5"> Sobre a Fábrica do Corpo</h2>
+				<p class="text-center text-secondary pb-3">Com o avanço da ciência, mais específicamente no âmbito da
+					saúde, foi descoberto o quão
+					importante é a prática de atividades físicas para o ser humano,
+					dentre algumas delas; se encontra à musculação, que além de proporcionar qualidade de vida, também
+					pode
+					ser utilizada para mudar o seu corpo, tanto para emagrecer, quanto para o ganho de massa muscular.
+					Por isso, temos a missão de te entregar quaisquer infoprodutos relacionados à
+					musculação, dentre eles: livros, cursos, e guias de como fazer seu treino o mais eficiente possível,
+					alcançando os melhores resultados em menos tempo.
+
+				<p>Logo abaixo, apresentamos alguns dos nossos vários infoprodutos como exemplo para você...</p>
+			</div>
+		</section>
+
+		<section class="container" id="infoprodutos">
+			<div class="row justify-content-center cor-de-fundo01">
 
 
+				<article class="card cor-borda card-largura p-0 m-4">
+					<img src="treino01.jpg" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
+					<div class="card-body">
+						<h5 class="card-title">Tabela de treinos</h5>
+						<p class="card-text">Calendário de divisão de treinos para academia.</p>
+						<a href="#" class="btn botao-cor-especial">Adquirir</a>
+					</div>
 
+				</article>
+				<article class="card cor-borda card-largura p-0 m-4">
+					<img src="treino2.jpg" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
+					<div class="card-body">
+						<h5 class="card-title">Planilha para hipertrofia</h5>
+						<p class="card-text">Planilha especializada para ganho de músculo.</p>
+						<a href="#" class="btn botao-cor-especial">Adquirir</a>
+					</div>
+				</article>
 
+				<article class="card cor-borda card-largura p-0 m-4 md-3">
+					<img src="treino03.jpg" class="card-img-top card-posicao-imagem" alt="Guia como montar meu treino">
+					<div class="card-body">
+						<h5 class="card-title">Dieta para hipertrofia</h5>
+						<p class="card-text">Como fazer sua dieta para resultados na musculação.</p>
+						<a href="#" class="btn botao-cor-especial">Adquirir</a>
+					</div>
+				</article>
+				<article class="card cor-borda card-largura p-0 m-4 md-3">
+					<img src="como montar meu treino.png" class="card-img-top card-posicao-imagem"
+						alt="Guia como montar meu treino">
+					<div class="card-body">
+						<h5 class="card-title">Guia musculação</h5>
+						<p class="card-text">Guia de como montar seu treino perfeito.</p>
+						<a href="#" class="btn botao-cor-especial">Adquirir</a>
+					</div>
+				</article>
+				<article class="card cor-borda card-largura p-0 m-4 md-3">
+					<img src="cursomusculacao.jpg" class="card-img-top card-posicao-imagem" alt="Curso de musculação">
+					<div class="card-body">
+						<h5 class="card-title">Curso de musculação</h5>
+						<p class="card-text">Curso instruído a musculação e academia.</p>
+						<a href="#" class="btn botao-cor-especial">Adquirir</a>
+					</div>
+				</article>
 
+				<article class="card cor-borda card-largura p-0 m-4 md-3">
+					<img src="livromusculação.jpg" class="card-img-top card-posicao-imagem" alt="Livro de musculação">
+					<div class="card-body">
+						<h5 class="card-title">Livro sobre musculação</h5>
+						<p class="card-text">Livro sobre musculação e academia completo.</p>
+						<a href="#" class="btn botao-cor-especial">Adquirir</a>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+	<section class="video-area">
+		<div class="embed-responsive embed-responsive-16by9 container col-md-4">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4-zjQvTDnbw"></iframe>
+		</div>
+	</section>
+	<footer class="cor-de-fundo-rodape">
+		<img class="imagem-rodape p-2" src="academia.jpg">
+		<p class="reservados">&copy; Direitos reservados</p>
+		<p class="copyright"> Fábrica do Corpo-2022</p>
+
+	</footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
