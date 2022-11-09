@@ -58,14 +58,27 @@
 }
 */
 
-.video{
+/*.video{
     text-align: center;
     background: black;
     padding: 30px;
+
+}
+*/
+
+.embed-responsive{
+    height: 300px;
+
 }
 
+.embed-responsive-item{
+    
+    
+}
 .video-area{
     background: linear-gradient(black 5%,#343a40 95%);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .cor-de-fundo-rodape{
@@ -91,7 +104,7 @@
     width: 100px;
 }
 
-@media (min-width: 576px){
+ /*@media (min-width: 1500px){
     .video, .video-area{
         width: auto;
     }
