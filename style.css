@@ -23,16 +23,16 @@
 .fonte-carrossel {
 	font-family: 'Kalam', cursive;
 	font-size: 40px;
-	color: darkred;
+	color: blue;
 }
 
 .cor-especial {
-	color: darkred;
+	color: black;
 }
 
 
 .botao-cor-especial {
-	background-color: darkred;
+	background-color:black;
 	color: white;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .cor-borda {
-	border-color: darkred !important;
+	border-color: black !important;
 }
 
 .card-posicao-imagem {
@@ -117,4 +117,9 @@
 
 .imagem-rodape {
 	width: 100px;
+}	
+
+
+.titulo-produtos{
+	text-align: center;
 }
