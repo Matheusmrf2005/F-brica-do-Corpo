@@ -123,3 +123,12 @@
 .titulo-produtos{
 	text-align: center;
 }
+
+.cor-de-fundo-formulario{
+	background: linear-gradient(white 75%,#343a40 );
+	
+}
+
+.cor-de-fundo-produtos{
+	background:linear-gradient(white 40%,#343a40,black);
+}
